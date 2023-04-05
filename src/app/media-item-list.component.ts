@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "mw-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"],
+  selector: "mw-media-item-list",
+  templateUrl: "./media-item-list.component.html",
+  styleUrls: ["./media-item-list.component.css"],
 })
-export class AppComponent {
+export class MediaItemListComponent {
   mediaItems = [
     {
       id: 1,
@@ -54,7 +54,5 @@ export class AppComponent {
     },
   ];
 
-  onMediaItemDelete(mediaItem) {
-    console.log("got here");
-  }
+  onMediaItemDelete(mediaItem) {}
 }

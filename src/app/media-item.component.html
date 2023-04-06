@@ -4,8 +4,8 @@
 <div>{{ mediaItem.year }}</div>
 <div class="tools">
   <svg
-    mwFavourite
-    class="favorite"
+    [mwFavourite]="mediaItem.isFavourite"
+    class="favourite"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
   >

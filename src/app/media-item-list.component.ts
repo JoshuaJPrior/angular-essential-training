@@ -14,7 +14,7 @@ export class MediaItemListComponent {
       category: "Science Fiction",
       year: 2010,
       watchedOn: 1294166565384,
-      isFavorite: false,
+      isFavourite: false,
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export class MediaItemListComponent {
       category: "Comedy",
       year: 2015,
       watchedOn: null,
-      isFavorite: true,
+      isFavourite: true,
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export class MediaItemListComponent {
       category: "Action",
       year: 2016,
       watchedOn: null,
-      isFavorite: false,
+      isFavourite: false,
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export class MediaItemListComponent {
       category: "Drama",
       year: null,
       watchedOn: null,
-      isFavorite: true,
+      isFavourite: true,
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ export class MediaItemListComponent {
       category: "Action",
       year: 2015,
       watchedOn: 1457166565384,
-      isFavorite: false,
+      isFavourite: false,
     },
   ];
 

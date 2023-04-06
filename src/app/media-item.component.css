@@ -31,19 +31,19 @@ h2 {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-.favorite {
+.favourite {
   width: 24px;
   height: 24px;
   fill: #bdc2c5;
   cursor: pointer;
 }
-.favorite.is-favorite {
+.favourite.is-favourite {
   fill: #37ad79;
 }
-.favorite.is-favorite-hovering {
+.favourite.is-favourite-hovering {
   fill: #45bf94;
 }
-.favorite.is-favorite.is-favorite-hovering {
+.favourite.is-favourite.is-favourite-hovering {
   fill: #ec4342;
 }
 .delete {

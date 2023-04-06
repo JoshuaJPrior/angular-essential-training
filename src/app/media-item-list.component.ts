@@ -53,4 +53,6 @@ export class MediaItemListComponent {
       isFavourite: false,
     },
   ];
+
+  onMediaItemDelete(mediaItem) {}
 }

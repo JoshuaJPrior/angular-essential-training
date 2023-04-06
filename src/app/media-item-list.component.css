@@ -1,4 +1,4 @@
-:host {
+section {
   display: flex;
   height: calc(100% - 95px);
   flex-direction: column;
